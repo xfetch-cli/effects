@@ -1,0 +1,7 @@
+{
+  "effects": {
+    "plugin": "decrypt",
+    "duration_ms": 1500,
+    "fps": 30
+  }
+}

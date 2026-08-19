@@ -1,0 +1,11 @@
+[package]
+name = "xfetch-effect-decrypt"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Decrypt intro effect for xfetch: reveals the info lines from scrambled glyphs"
+repository = "https://github.com/xfetch-cli/effects"
+
+[dependencies]
+xfetch-effect-api = { workspace = true }
+xfetch-effects-lib = { workspace = true }

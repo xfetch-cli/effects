@@ -1,0 +1,14 @@
+{
+  "effects": [
+    {
+      "plugin": "glitch",
+      "duration_ms": 700,
+      "fps": 30
+    },
+    {
+      "plugin": "decrypt",
+      "duration_ms": 1000,
+      "fps": 30
+    }
+  ]
+}

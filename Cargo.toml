@@ -1,0 +1,12 @@
+[workspace]
+members = [
+  "effects/effects-lib",
+  "effects/decrypt",
+  "effects/glitch",
+]
+resolver = "2"
+
+# Published to xfetch-cli/api. Switch to a git ref/branch while iterating.
+[workspace.dependencies]
+xfetch-effect-api = { git = "https://github.com/xfetch-cli/api", package = "xfetch-effect-api" }
+xfetch-effects-lib = { path = "effects/effects-lib", package = "xfetch-effects-lib" }
