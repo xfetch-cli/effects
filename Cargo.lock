@@ -95,6 +95,7 @@ checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
 [[package]]
 name = "xfetch-effect-api"
 version = "0.1.0"
+source = "git+https://github.com/xfetch-cli/api#8a63f2d6693c9a1eb7fde248e7ca54e25ccbded3"
 dependencies = [
  "serde",
  "serde_json",
