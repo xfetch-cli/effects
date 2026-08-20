@@ -61,7 +61,7 @@ fn glitch_line(line: &str, progress: f64, frame: u64, line_seed: u64) -> String 
     // anywhere inside it, so earlier frames are dominated by random noise.
     let cap = (n as f64 * progress).round() as usize;
     // Aggressive: bursts (full-line collapse) hit roughly every 3 frames.
-    let burst = lcg(&mut state) % 3 == 0;
+    let burst = lcg(&mut state).is_multiple_of(3);
     let shown = if burst {
         0
     } else {
@@ -69,7 +69,7 @@ fn glitch_line(line: &str, progress: f64, frame: u64, line_seed: u64) -> String 
     };
 
     let base = rebuild(&segs, |seen, c| {
-        if seen < shown && lcg(&mut state) % 5 != 0 {
+        if seen < shown && !lcg(&mut state).is_multiple_of(5) {
             c
         } else {
             glitch_char(&mut state)
@@ -78,7 +78,7 @@ fn glitch_line(line: &str, progress: f64, frame: u64, line_seed: u64) -> String 
 
     // Horizontal "slice": occasionally push the whole line right a few columns
     // so the rows no longer align — the classic displaced-lines glitch look.
-    let slice = progress < 0.95 && lcg(&mut state) % 4 == 0;
+    let slice = progress < 0.95 && lcg(&mut state).is_multiple_of(4);
     if slice {
         let offset = (lcg(&mut state) as usize % 5) + 1;
         format!("{}{}", " ".repeat(offset), base)
@@ -98,7 +98,7 @@ fn glitch_frame(lines: &[String], progress: f64, frame: u64) -> Vec<String> {
     if !out.is_empty() && progress < 0.9 {
         let mut state = frame;
         mix(&mut state, frame);
-        if lcg(&mut state) % 6 == 0 {
+        if lcg(&mut state).is_multiple_of(6) {
             let idx = (lcg(&mut state) as usize) % out.len();
             out[idx] = String::new();
         }
