@@ -15,17 +15,15 @@
 <div align="left">
   <h2>Menu</h2>
   <ul>
-    <li><a href="#features">Features </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/grabber.svg" /></li>
-    <li><a href="#quick-install">Quick Install </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/pass-filled.svg"/></li>
-    <li><a href="#configuration">Configuration </a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/gear.svg" /></li>
-    <li><a href="#writing-an-effect">Writing an Effect </a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/flame.svg"/></li>
-    <li><a href="#structure">Structure </a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/repo-forked.svg" /></li>
+    <li><a href="#features">Features </a></li>
+    <li><a href="#quick-install">Quick Install </a></li>
+    <li><a href="#configuration">Configuration </a> </li>
+    <li><a href="#writing-an-effect">Writing an Effect </a> </li>
+    <li><a href="#structure">Structure </a> </li>
     <li><a href="#related-documents">Related Documents </a>
-    <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/diff-multiple.svg" />
-    <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/key.svg" />
     </li>
-    <li><a href="#related-repos">Related Repos </a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/symbol-key.svg"/></li>
-    <li><a href="#about-the-developer">About X </a> <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/regex.svg"/></li>
+    <li><a href="#related-repos">Related Repos </a> </li>
+    <li><a href="#about-the-developer">About X </a> </li>
   </ul>
 </div>
 
@@ -148,27 +146,21 @@ effects/
 
 <h2 align="center" id="related-repos">Related Repos</h2>
 <ul>
-  <li><a href="https://github.com/xfetch-cli/xfetch">XFetch</a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg"/></li>
-  <li><a href="https://github.com/xfetch-cli/api">XFetch API</a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/git-fetch.svg"/></li>
-  <li><a href="https://github.com/xfetch-cli/plugins">XFetch Plugins </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/extensions.svg"/></li>
-  <li><a href="https://github.com/xfetch-cli/extensions">XFetch Extensions </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/git-merge.svg"/></li>
-  <li><a href="https://github.com/xfetch-cli/themes">XFetch Themes </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/symbol-keyword.svg"/></li>
-  <li><a href="https://github.com/xfetch-cli/configs">XFetch Configs </a><img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/symbol-key.svg"/></li>
+  <li><a href="https://github.com/xfetch-cli/xfetch">XFetch</a></li>
+  <li><a href="https://github.com/xfetch-cli/api">XFetch API</a></li>
+  <li><a href="https://github.com/xfetch-cli/plugins">XFetch Plugins </a></li>
+  <li><a href="https://github.com/xfetch-cli/extensions">XFetch Extensions </a></li>
+  <li><a href="https://github.com/xfetch-cli/themes">XFetch Themes </a></li>
+  <li><a href="https://github.com/xfetch-cli/configs">XFetch Configs </a></li>
 </ul>
 
 <div id="about-the-developer" align="center">
 <h2>X</h2>
 
-<a href="https://dev.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">Git</a>
  & 
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>
