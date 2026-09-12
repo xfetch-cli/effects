@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name": "wasm-python-pulse",
+  "version": "0.2.0",
+  "description": "Python WebAssembly effect example built with componentize-py",
+  "kind": "effect",
+  "runtime": "component",
+  "build": "componentize-py -d ../../../api/wit -w effect componentize app -p . -o dist/wasm-python-pulse.wasm",
+  "artifact": "dist/wasm-python-pulse.wasm",
+  "capabilities": {},
+  "limits": {
+    "timeout_ms": 20000,
+    "memory_mb": 256,
+    "output_kb": 2048,
+    "host_call_kb": 256
+  }
+}

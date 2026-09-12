@@ -48,6 +48,14 @@
       <td><strong>glitch</strong></td>
       <td>Stuttery scrambled flicker with corruption bursts, horizontal slices and dropped rows.</td>
     </tr>
+    <tr>
+      <td><strong>wasm-matrix</strong></td>
+      <td>Matrix-style glyph reveal, compiled to WebAssembly (Rust).</td>
+    </tr>
+    <tr>
+      <td><strong>wasm-python-pulse</strong></td>
+      <td>Line-by-line reveal with a block-gradient cursor (Python component).</td>
+    </tr>
   </tbody>
 </table>
 

@@ -3,9 +3,16 @@ members = [
   "effects/effects-lib",
   "effects/decrypt",
   "effects/glitch",
+  "effects/wasm-matrix",
 ]
 resolver = "2"
 
 [workspace.dependencies]
-xfetch-effect-api = { version = "0.1.0", package = "xfetch-effect-api" }
-xfetch-effects-lib = { version = "0.1.0", path = "effects/effects-lib", package = "xfetch-effects-lib" }
+xfetch-effect-api = { version = "0.2.0", package = "xfetch-effect-api" }
+xfetch-effects-lib = { version = "0.2.0", path = "effects/effects-lib", package = "xfetch-effects-lib" }
+
+# Local multi-repo development: build against the sibling api checkout so wasm
+# effects get wasm-compatible helpers before the next crates.io release.
+# Remove this section when building standalone (or once crates are published).
+[patch.crates-io]
+xfetch-effect-api = { path = "../api/crates/effect-api" }
