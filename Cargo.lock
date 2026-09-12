@@ -94,9 +94,7 @@ checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
 
 [[package]]
 name = "xfetch-effect-api"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9df88260e6941b164fb7ef51506e54ea646d56186c9706faa3904bbd8f7c18c3"
+version = "0.2.0"
 dependencies = [
  "serde",
  "serde_json",
@@ -104,7 +102,7 @@ dependencies = [
 
 [[package]]
 name = "xfetch-effect-decrypt"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "xfetch-effect-api",
  "xfetch-effects-lib",
@@ -112,7 +110,15 @@ dependencies = [
 
 [[package]]
 name = "xfetch-effect-glitch"
-version = "0.1.0"
+version = "0.2.0"
+dependencies = [
+ "xfetch-effect-api",
+ "xfetch-effects-lib",
+]
+
+[[package]]
+name = "xfetch-effect-wasm-matrix"
+version = "0.2.0"
 dependencies = [
  "xfetch-effect-api",
  "xfetch-effects-lib",
@@ -120,7 +126,7 @@ dependencies = [
 
 [[package]]
 name = "xfetch-effects-lib"
-version = "0.1.0"
+version = "0.2.0"
 
 [[package]]
 name = "zmij"

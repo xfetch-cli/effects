@@ -1,9 +1,9 @@
 [package]
-name = "xfetch-effect-decrypt"
+name = "xfetch-effect-wasm-matrix"
 version = "0.2.0"
 edition = "2024"
 license = "MIT"
-description = "Decrypt intro effect for xfetch: reveals the info lines from scrambled glyphs"
+description = "Matrix intro effect for xfetch, compiled to WebAssembly"
 repository = "https://github.com/xfetch-cli/effects"
 
 [dependencies]

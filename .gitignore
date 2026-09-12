@@ -1,2 +1,4 @@
 /target
 /.cargo
+# Built wasm artifacts (installer output)
+dist/

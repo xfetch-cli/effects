@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name": "wasm-matrix",
+  "version": "0.2.0",
+  "description": "Matrix-style reveal effect compiled to WebAssembly",
+  "kind": "effect",
+  "runtime": "core",
+  "build": "cargo build --release --target wasm32-wasip1",
+  "artifact": "../../target/wasm32-wasip1/release/xfetch-effect-wasm-matrix.wasm",
+  "capabilities": {},
+  "limits": {
+    "timeout_ms": 10000,
+    "memory_mb": 64,
+    "output_kb": 2048,
+    "host_call_kb": 64
+  }
+}
