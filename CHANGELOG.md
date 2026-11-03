@@ -3,6 +3,7 @@
 ## 2026-11-03 — Dependency updates
 
 - Updated the workspace lockfile with semver-compatible patches: `serde_json` 1.0.154, `syn` 3.0.9 and `unicode-ident` 1.0.27.
+- Updated the security-audit workflow to `actions/checkout` 7.0.1 and the pinned `dtolnay/rust-toolchain` commit.
 - No effect code or manifests changed; crate versions remain 0.2.0. The catalog index is unchanged.
 
 ## 2026-11-03 — Addon catalog index
