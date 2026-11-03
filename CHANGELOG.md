@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-03 — Addon catalog index
+
+- Added root `index.json`, a machine-readable catalog of the four installable effects (`decrypt`, `glitch`, `wasm-matrix`, `wasm-python-pulse`), consumed by `xfetch effects search`.
+- Native Rust effects publish their Cargo version and description; wasm guests publish the metadata from their adjacent `xfetch-effect.json`, with `guest_runtime` set to `core` or `component`.
+- Added `scripts/generate_catalog.py`, a standard-library-only deterministic generator with `--check` support for CI and local verification.
+- No effect code or manifests changed. Crate versions remain 0.2.0.
+
 ## 2026-10-24 — Dependency security automation
 
 - Added `.github/workflows/security-audit.yml`: runs `cargo audit` 0.22.2 with `--deny warnings` on push, pull request and a weekly schedule, with actions pinned by commit SHA and no persisted checkout credentials.

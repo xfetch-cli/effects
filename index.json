@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "catalog_version": "1.0.2",
+  "entries": [
+    {
+      "name": "decrypt",
+      "description": "Decrypt intro effect for xfetch: reveals the info lines from scrambled glyphs",
+      "version": "0.2.0",
+      "kind": "effect",
+      "runtime": "native",
+      "path": "effects/decrypt",
+      "install": "decrypt",
+      "capabilities": {}
+    },
+    {
+      "name": "glitch",
+      "description": "Glitch intro effect for xfetch: stuttery scrambled flicker with corruption bursts before the content settles",
+      "version": "0.2.0",
+      "kind": "effect",
+      "runtime": "native",
+      "path": "effects/glitch",
+      "install": "glitch",
+      "capabilities": {}
+    },
+    {
+      "name": "wasm-matrix",
+      "description": "Matrix-style reveal effect compiled to WebAssembly",
+      "version": "0.2.0",
+      "kind": "effect",
+      "runtime": "wasm",
+      "guest_runtime": "core",
+      "path": "effects/wasm-matrix",
+      "install": "wasm-matrix",
+      "capabilities": {}
+    },
+    {
+      "name": "wasm-python-pulse",
+      "description": "Python WebAssembly effect example built with componentize-py",
+      "version": "0.2.0",
+      "kind": "effect",
+      "runtime": "wasm",
+      "guest_runtime": "component",
+      "path": "effects/wasm-python-pulse",
+      "install": "wasm-python-pulse",
+      "capabilities": {}
+    }
+  ]
+}
