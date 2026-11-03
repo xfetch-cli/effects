@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-03 — Dependency updates
+
+- Updated the workspace lockfile with semver-compatible patches: `serde_json` 1.0.154, `syn` 3.0.9 and `unicode-ident` 1.0.27.
+- No effect code or manifests changed; crate versions remain 0.2.0. The catalog index is unchanged.
+
 ## 2026-11-03 — Addon catalog index
 
 - Added root `index.json`, a machine-readable catalog of the four installable effects (`decrypt`, `glitch`, `wasm-matrix`, `wasm-python-pulse`), consumed by `xfetch effects search`.
