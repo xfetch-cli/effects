@@ -1,12 +1,16 @@
 # Changelog
 
-## 2026-11-03 — Dependency updates
+## 2026-11-03 — v1.0.2
+
+Release train v1.0.2 (catalog schema 1, catalog_version 1.0.2).
+
+### Dependency updates
 
 - Updated the workspace lockfile with semver-compatible patches: `serde_json` 1.0.154, `syn` 3.0.9 and `unicode-ident` 1.0.27.
 - Updated the security-audit workflow to `actions/checkout` 7.0.1 and the pinned `dtolnay/rust-toolchain` commit.
 - No effect code or manifests changed; crate versions remain 0.2.0. The catalog index is unchanged.
 
-## 2026-11-03 — Addon catalog index
+### Addon catalog index
 
 - Added root `index.json`, a machine-readable catalog of the four installable effects (`decrypt`, `glitch`, `wasm-matrix`, `wasm-python-pulse`), consumed by `xfetch effects search`.
 - Native Rust effects publish their Cargo version and description; wasm guests publish the metadata from their adjacent `xfetch-effect.json`, with `guest_runtime` set to `core` or `component`.
