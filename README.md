@@ -143,6 +143,7 @@ effects/
 <div align="left">
   <ul>
     <li><a href="https://github.com/xfetch-cli/xfetch/blob/main/docs/EFFECTS.md">Effects (xfetch docs)</a></li>
+    <li><a href="https://github.com/xfetch-cli/effects/blob/main/docs/compatibility.md">Platform Compatibility</a></li>
     <li><a href="https://github.com/xfetch-cli/api/blob/main/docs/effect-sdk.md">Effect SDK</a></li>
     <li><a href="https://github.com/xfetch-cli/api/blob/main/docs/protocol.md">Protocol Reference</a></li>
     <li><a href="https://github.com/xfetch-cli/api/blob/main/docs/examples.md">Examples</a></li>

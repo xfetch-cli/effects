@@ -93,13 +93,24 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2c754d6c33795a1c324727428e5a7dedb5b06195f9890bdbcba760d3e246563"
 
 [[package]]
-name = "xfetch-effect-api"
-version = "0.2.0"
+name = "xfetch-api-common"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "69820c4df7636fc23ab84a3b6cb7d3c9b58b523fbc10e0e0d733c8bc5facd009"
+checksum = "3d7a35b6c4f442aea26e73bb821978a637bd31261d80d4e97c11185876dd684c"
 dependencies = [
  "serde",
  "serde_json",
+]
+
+[[package]]
+name = "xfetch-effect-api"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0bf8aacbdb2bfeef6a3139f24528786826a0db89a3d5ba2cde47948fa9093534"
+dependencies = [
+ "serde",
+ "serde_json",
+ "xfetch-api-common",
 ]
 
 [[package]]
