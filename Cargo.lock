@@ -94,9 +94,8 @@ checksum = "a2c754d6c33795a1c324727428e5a7dedb5b06195f9890bdbcba760d3e246563"
 
 [[package]]
 name = "xfetch-api-common"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d7a35b6c4f442aea26e73bb821978a637bd31261d80d4e97c11185876dd684c"
+version = "0.3.1"
+source = "git+https://github.com/xfetch-cli/api?branch=feat%2Fcommand-kind#dc5c9afdcfa618977296717fce2ec3472cffc9ed"
 dependencies = [
  "serde",
  "serde_json",
@@ -104,9 +103,8 @@ dependencies = [
 
 [[package]]
 name = "xfetch-effect-api"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0bf8aacbdb2bfeef6a3139f24528786826a0db89a3d5ba2cde47948fa9093534"
+version = "0.3.1"
+source = "git+https://github.com/xfetch-cli/api?branch=feat%2Fcommand-kind#dc5c9afdcfa618977296717fce2ec3472cffc9ed"
 dependencies = [
  "serde",
  "serde_json",

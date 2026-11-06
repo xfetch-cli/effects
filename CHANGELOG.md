@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — SDK 0.3.1 migration
+
+- Updated the workspace to `xfetch-effect-api` 0.3.1.
+- The JSON protocol remains version 1 and the WIT remains
+  `xfetch:runtime@0.1.0`.
+- Effect code, manifests and catalog versions are unchanged.
+
 ## 2026-11-06 — CI and wasm validation
 
 - Added a `Tests` workflow: fmt, clippy, workspace tests and catalog
