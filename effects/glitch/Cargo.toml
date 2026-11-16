@@ -2,7 +2,7 @@
 name = "xfetch-effect-glitch"
 version = "0.2.0"
 edition = "2024"
-license = "MIT"
+license = "GPL-3.0-only"
 description = "Glitch intro effect for xfetch: stuttery scrambled flicker with corruption bursts before the content settles"
 repository = "https://github.com/xfetch-cli/effects"
 

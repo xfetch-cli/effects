@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/xfetch-cli/effects/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](https://github.com/xfetch-cli/effects/blob/main/LICENSE)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey?style=flat-square)](https://github.com/xfetch-cli/effects/blob/main/README.md)
 [![Rust](https://img.shields.io/badge/Rust-1.97-orange?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 
@@ -173,3 +173,11 @@ effects/
 <a href="https://www.xscriptor.com">X</a>
 
 </div>
+
+<h2 align="center" id="licensing">Licensing</h2>
+
+<p align="center">
+  The code authored by xscriptor in this repository is GPL-3.0-only. Addons
+  and additional functionality contributed by other developers may use their
+  own licenses; see <a href="./ADDON-LICENSING.md">ADDON-LICENSING.md</a>.
+</p>
